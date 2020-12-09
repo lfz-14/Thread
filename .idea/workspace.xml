@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d88daae-e7a7-44dd-9b4b-3284660a53a4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6d88daae-e7a7-44dd-9b4b-3284660a53a4" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -204,7 +201,7 @@
       <workItem from="1607430976919" duration="3225000" />
       <workItem from="1607435124602" duration="283000" />
       <workItem from="1607475622832" duration="5370000" />
-      <workItem from="1607482605012" duration="1538000" />
+      <workItem from="1607482605012" duration="1892000" />
     </task>
     <task id="LOCAL-00001" summary="多进程">
       <created>1607478322480</created>
@@ -220,11 +217,29 @@
       <option name="project" value="LOCAL" />
       <updated>1607480002896</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="多进程">
+      <created>1607496366222</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607496366222</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="多进程" />
@@ -243,10 +258,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607435301095" />
-    <state x="292" y="93" width="1070" height="870" key="CommitChangelistDialog2" timestamp="1607480001863">
+    <state x="292" y="93" width="1070" height="870" key="CommitChangelistDialog2" timestamp="1607496365310">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="292" y="93" width="1070" height="870" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607480001863" />
+    <state x="292" y="93" width="1070" height="870" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607496365310" />
     <state x="51" y="94" key="DiffContextDialog" timestamp="1607479721370">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -291,14 +306,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="595" y="280" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607480049843" />
+    <state x="629" y="229" key="RollbackChangesDialog" timestamp="1607496331161">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="629" y="229" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607496331161" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1607482551013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607482551013" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607480016536">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607496506342">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607480016536" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607496506342" />
     <state x="690" y="254" key="VcsDiffUtil.ChangesDialog" timestamp="1607482892097">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
