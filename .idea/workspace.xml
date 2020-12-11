@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d88daae-e7a7-44dd-9b4b-3284660a53a4" name="Default Changelist" comment="" />
+    <list default="true" id="6d88daae-e7a7-44dd-9b4b-3284660a53a4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/processing/Communcation_Process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing/basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/processing/basic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/共享全部变量的问题-资源竞争.py" beforeDir="false" afterPath="$PROJECT_DIR$/thread/共享全部变量的问题-资源竞争.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +59,9 @@
   </component>
   <component name="JupyterTrust" id="3a115f10-0e4a-44ab-ac1d-a3c00d44efe9" />
   <component name="ProjectId" id="1lJnH9R3QWsrJlgll7zn3Tv2PQ9" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -45,7 +70,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Ling0/NucleiDetection" />
     <property name="rest.client.default.execution.environment" value="test" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
@@ -94,10 +119,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in basic.py">
-    <configuration name="get-requests#1 (1)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/get-requests.http" runType="Run single request">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.Communcation_Process">
     <configuration name="get-requests#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/get-requests.http" index="2" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -115,6 +137,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/查看线程数量.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Communcation_Process" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="threading_mult" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/processing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/processing/Communcation_Process.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -181,11 +225,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Communcation_Process" />
         <item itemvalue="Python tests.pytest in basic.py" />
         <item itemvalue="Python tests.pytest for basic.test1" />
         <item itemvalue="Python.查看线程数量" />
         <item itemvalue="HTTP Request.get-requests#2" />
-        <item itemvalue="HTTP Request.get-requests#1 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +245,9 @@
       <workItem from="1607430976919" duration="3225000" />
       <workItem from="1607435124602" duration="283000" />
       <workItem from="1607475622832" duration="5370000" />
-      <workItem from="1607482605012" duration="1892000" />
+      <workItem from="1607482605012" duration="3200000" />
+      <workItem from="1607563771013" duration="1403000" />
+      <workItem from="1607670299633" duration="3440000" />
     </task>
     <task id="LOCAL-00001" summary="多进程">
       <created>1607478322480</created>
@@ -224,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607496366222</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="多进程">
+      <created>1607496605900</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607496605900</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +293,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="多进程" />
@@ -258,18 +312,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607435301095" />
-    <state x="292" y="93" width="1070" height="870" key="CommitChangelistDialog2" timestamp="1607496365310">
+    <state x="292" y="93" width="1070" height="870" key="CommitChangelistDialog2" timestamp="1607496604991">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="292" y="93" width="1070" height="870" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607496365310" />
+    <state x="292" y="93" width="1070" height="870" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607496604991" />
     <state x="51" y="94" key="DiffContextDialog" timestamp="1607479721370">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="51" y="94" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607479721370" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1607482602587">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1607563949974">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607482602587" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607563949974" />
     <state x="771" y="421" key="Github.CreateGistDialog" timestamp="1607475716327">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -314,10 +368,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607482551013" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607496506342">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607496610125">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607496506342" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607496610125" />
     <state x="690" y="254" key="VcsDiffUtil.ChangesDialog" timestamp="1607482892097">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -335,5 +389,6 @@
     <SUITE FILE_PATH="coverage/threading_mult$pytest_in_basic_py.coverage" NAME="pytest in basic.py Coverage Results" MODIFIED="1607482454893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/processing" />
     <SUITE FILE_PATH="coverage/threading_mult$mult_threading.coverage" NAME="mult_threading Coverage Results" MODIFIED="1607324529420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/threading_mult$basic_Process.coverage" NAME="basic_Process Coverage Results" MODIFIED="1607435350130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Process" />
+    <SUITE FILE_PATH="coverage/threading_mult$Communcation_Process.coverage" NAME="Communcation_Process Coverage Results" MODIFIED="1607674034710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/processing" />
   </component>
 </project>
