@@ -20,10 +20,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d88daae-e7a7-44dd-9b4b-3284660a53a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/processing/Communcation_Process.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/processing/Pool_Process.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processing/basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/processing/basic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/共享全部变量的问题-资源竞争.py" beforeDir="false" afterPath="$PROJECT_DIR$/thread/共享全部变量的问题-资源竞争.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Threading_1/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Threading_1/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Threading_1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Threading_1/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/.idea/threading_mult.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Threading_1/.idea/threading_mult.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Threading_1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/123456.py" beforeDir="false" afterPath="$PROJECT_DIR$/Threading_1/123456.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/Variable_global_local.py" beforeDir="false" afterPath="$PROJECT_DIR$/Threading_1/Variable_global_local.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Threading_1/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/class_thread.py" beforeDir="false" afterPath="$PROJECT_DIR$/Threading_1/class_thread.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/mult_threading.py" beforeDir="false" afterPath="$PROJECT_DIR$/Threading_1/mult_threading.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/mult_threading2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Threading_1/mult_threading2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/mult_threading3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Threading_1/mult_threading3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/mult_threading4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Threading_1/mult_threading4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/no_mult.py" beforeDir="false" afterPath="$PROJECT_DIR$/Threading_1/no_mult.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/共享全部变量的问题-资源竞争.py" beforeDir="false" afterPath="$PROJECT_DIR$/Threading_1/共享全部变量的问题-资源竞争.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/多任务udp聊天器.py" beforeDir="false" afterPath="$PROJECT_DIR$/Threading_1/多任务udp聊天器.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/多线程共享全局变量.py" beforeDir="false" afterPath="$PROJECT_DIR$/Threading_1/多线程共享全局变量.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/查看线程数量.py" beforeDir="false" afterPath="$PROJECT_DIR$/Threading_1/查看线程数量.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/死锁.py" beforeDir="false" afterPath="$PROJECT_DIR$/Threading_1/死锁.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,10 +137,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Communcation_Process">
-    <configuration name="get-requests#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/get-requests.http" index="2" runType="Run single request">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.Pool_Process">
     <configuration name="查看线程数量" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="threading_mult" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,6 +174,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/processing/Communcation_Process.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Pool_Process" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="threading_mult" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/processing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/processing/Pool_Process.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -225,11 +262,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Pool_Process" />
         <item itemvalue="Python.Communcation_Process" />
         <item itemvalue="Python tests.pytest in basic.py" />
         <item itemvalue="Python tests.pytest for basic.test1" />
         <item itemvalue="Python.查看线程数量" />
-        <item itemvalue="HTTP Request.get-requests#2" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +284,7 @@
       <workItem from="1607475622832" duration="5370000" />
       <workItem from="1607482605012" duration="3200000" />
       <workItem from="1607563771013" duration="1403000" />
-      <workItem from="1607670299633" duration="3440000" />
+      <workItem from="1607670299633" duration="9428000" />
     </task>
     <task id="LOCAL-00001" summary="多进程">
       <created>1607478322480</created>
@@ -277,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607496605900</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="多进程">
+      <created>1607674106839</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607674106839</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,10 +356,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607435301095" />
-    <state x="292" y="93" width="1070" height="870" key="CommitChangelistDialog2" timestamp="1607496604991">
+    <state x="292" y="93" width="1070" height="870" key="CommitChangelistDialog2" timestamp="1607674105759">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="292" y="93" width="1070" height="870" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607496604991" />
+    <state x="292" y="93" width="1070" height="870" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607674105759" />
     <state x="51" y="94" key="DiffContextDialog" timestamp="1607479721370">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -336,22 +380,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="222" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607413182826" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1607482603507">
+    <state width="1877" height="341" key="GridCell.Tab.0.bottom" timestamp="1607738204852">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607482603507" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1607482603507">
+    <state width="1877" height="341" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607738204852" />
+    <state width="1877" height="341" key="GridCell.Tab.0.center" timestamp="1607738204852">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607482603507" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1607482603507">
+    <state width="1877" height="341" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607738204852" />
+    <state width="1877" height="341" key="GridCell.Tab.0.left" timestamp="1607738204852">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607482603507" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1607482603507">
+    <state width="1877" height="341" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607738204852" />
+    <state width="1877" height="341" key="GridCell.Tab.0.right" timestamp="1607738204852">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607482603507" />
+    <state width="1877" height="341" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607738204852" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1607737162991">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607737162991" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1607737162991">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607737162991" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1607737162991">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607737162991" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1607737162991">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607737162991" />
     <state x="184" y="86" key="MergeDialog" timestamp="1607480049836">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -368,23 +428,24 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607482551013" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607496610125">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607674110408">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607496610125" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607674110408" />
     <state x="690" y="254" key="VcsDiffUtil.ChangesDialog" timestamp="1607482892097">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="254" key="VcsDiffUtil.ChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607482892097" />
-    <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607433771814">
+    <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607674083354">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607433771814" />
+    <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607674083354" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/threading_mult$pytest_for_basic_test1.coverage" NAME="pytest for basic.test1 Coverage Results" MODIFIED="1607476162854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/processing" />
     <SUITE FILE_PATH="coverage/threading_mult$.coverage" NAME="查看线程数量 Coverage Results" MODIFIED="1607327995946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/threading_mult$class_thread.coverage" NAME="class_thread Coverage Results" MODIFIED="1607324614094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/threading_mult$Pool_Process.coverage" NAME="Pool_Process Coverage Results" MODIFIED="1607738204839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/processing" />
     <SUITE FILE_PATH="coverage/threading_mult$pytest_in_mult_threading2_py.coverage" NAME="pytest in mult_threading2.py Coverage Results" MODIFIED="1607324411846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/threading_mult$pytest_in_basic_py.coverage" NAME="pytest in basic.py Coverage Results" MODIFIED="1607482454893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/processing" />
     <SUITE FILE_PATH="coverage/threading_mult$mult_threading.coverage" NAME="mult_threading Coverage Results" MODIFIED="1607324529420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
