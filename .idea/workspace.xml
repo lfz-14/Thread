@@ -20,13 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d88daae-e7a7-44dd-9b4b-3284660a53a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Iter_yield_greenlet/Generator_Fib.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Iter_yield_greenlet/Generator_MultTask.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Iter_yield_greenlet/Generator_Send.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Iter_yield_greenlet/Generator_way1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Iter_yield_greenlet/Generator_way2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Iter_yield_greenlet/Gevent_way.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Iter_yield_greenlet/Gevent_way.py" beforeDir="false" afterPath="$PROJECT_DIR$/Iter_yield_greenlet/Gevent_way.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,29 +117,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Generator_MultTask">
-    <configuration name="Generator_Fib" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="threading_mult" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Iter_yield_greenlet" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Iter_yield_greenlet/Generator_Fib.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.Gevent_way">
     <configuration name="Generator_MultTask" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="threading_mult" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -233,6 +206,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Gevent_way" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="threading_mult" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Iter_yield_greenlet" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Iter_yield_greenlet/Gevent_way.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="basic_Process" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="threading_mult" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -257,11 +252,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Gevent_way" />
         <item itemvalue="Python.Generator_MultTask" />
         <item itemvalue="Python.Generator_Send" />
         <item itemvalue="Python.Generator_way2" />
         <item itemvalue="Python.Generator_way1" />
-        <item itemvalue="Python.Generator_Fib" />
       </list>
     </recent_temporary>
   </component>
@@ -282,7 +277,8 @@
       <workItem from="1607670299633" duration="16436000" />
       <workItem from="1607911858706" duration="13870000" />
       <workItem from="1608168930964" duration="4732000" />
-      <workItem from="1608450135227" duration="3126000" />
+      <workItem from="1608450135227" duration="3227000" />
+      <workItem from="1608599519515" duration="7575000" />
     </task>
     <task id="LOCAL-00001" summary="多进程">
       <created>1607478322480</created>
@@ -347,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607935793646</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="多进程">
+      <created>1608468681481</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1608468681481</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -382,10 +385,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607435301095" />
-    <state x="292" y="93" width="1070" height="870" key="CommitChangelistDialog2" timestamp="1607935792152">
+    <state x="292" y="93" width="1070" height="870" key="CommitChangelistDialog2" timestamp="1608468680123">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="292" y="93" width="1070" height="870" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607935792152" />
+    <state x="292" y="93" width="1070" height="870" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608468680123" />
     <state x="51" y="94" key="DiffContextDialog" timestamp="1607479721370">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -406,38 +409,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="222" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607413182826" />
-    <state width="1877" height="416" key="GridCell.Tab.0.bottom" timestamp="1608451653300">
+    <state width="1877" height="416" key="GridCell.Tab.0.bottom" timestamp="1608688820959">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="416" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608451653300" />
-    <state width="1877" height="416" key="GridCell.Tab.0.center" timestamp="1608451653300">
+    <state width="1877" height="416" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608688820959" />
+    <state width="1877" height="416" key="GridCell.Tab.0.center" timestamp="1608688820959">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="416" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608451653300" />
-    <state width="1877" height="416" key="GridCell.Tab.0.left" timestamp="1608451653300">
+    <state width="1877" height="416" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608688820959" />
+    <state width="1877" height="416" key="GridCell.Tab.0.left" timestamp="1608688820959">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="416" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608451653300" />
-    <state width="1877" height="416" key="GridCell.Tab.0.right" timestamp="1608451653300">
+    <state width="1877" height="416" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608688820959" />
+    <state width="1877" height="416" key="GridCell.Tab.0.right" timestamp="1608688820959">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="416" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608451653300" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1607781545718">
+    <state width="1877" height="416" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608688820959" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1608687929439">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607781545718" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1607781545718">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608687929439" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1608687929439">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607781545718" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1607781545718">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608687929439" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1608687929439">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607781545718" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1607781545718">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608687929439" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1608687929439">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607781545718" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608687929439" />
     <state x="184" y="86" key="MergeDialog" timestamp="1607480049836">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -454,10 +457,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607482551013" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608468661344">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608468686246">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608468661344" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608468686246" />
     <state x="690" y="254" key="VcsDiffUtil.ChangesDialog" timestamp="1607482892097">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -466,10 +469,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607674083354" />
-    <state x="662" y="74" width="596" height="891" key="find.popup" timestamp="1607932280949">
+    <state x="662" y="74" width="596" height="891" key="find.popup" timestamp="1608603217941">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="662" y="74" width="596" height="891" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607932280949" />
+    <state x="662" y="74" width="596" height="891" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608603217941" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1607932242562">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -486,6 +489,7 @@
     <SUITE FILE_PATH="coverage/threading_mult$pytest_in_basic_py.coverage" NAME="pytest in basic.py Coverage Results" MODIFIED="1607482454893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/processing" />
     <SUITE FILE_PATH="coverage/threading_mult$Generator_way2.coverage" NAME="Generator_way2 Coverage Results" MODIFIED="1608188338028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Iter_yield_greenlet" />
     <SUITE FILE_PATH="coverage/threading_mult$Iter_apply.coverage" NAME="Iter_apply Coverage Results" MODIFIED="1607914467974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Iter_yield_greenlet" />
+    <SUITE FILE_PATH="coverage/threading_mult$Gevent_way.coverage" NAME="Gevent_way Coverage Results" MODIFIED="1608688048669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Iter_yield_greenlet" />
     <SUITE FILE_PATH="coverage/threading_mult$mult_threading.coverage" NAME="mult_threading Coverage Results" MODIFIED="1607324529420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/threading_mult$basic_Process.coverage" NAME="basic_Process Coverage Results" MODIFIED="1607435350130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Process" />
     <SUITE FILE_PATH="coverage/threading_mult$pytest_for_basic_test1.coverage" NAME="pytest for basic.test1 Coverage Results" MODIFIED="1607476162854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/processing" />
